@@ -22,15 +22,23 @@ const ProductAll = () => {
     }
   };
 
-
   useEffect(()=>{
     getProducts();
   },[])
 
+  if (loading) return <div>Loading...</div>; // 로딩 상태 표시
+  if (error) return <div>Error: {error}</div>; // 에러 상태 표시
+
   return (
     <div>
-      <ProductCard />
-    </div>
+    {productList.length > 0 ? (
+      productList.map(product => (
+        <ProductCard key={product.id} product={product} />
+      ))
+    ) : (
+      <div>No products available</div>
+    )}
+  </div>
   );
  };
 
