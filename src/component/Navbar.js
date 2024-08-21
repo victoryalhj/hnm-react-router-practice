@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="nav-section">
         <img 
         width={100} 
-        src="https://www.hm.com/entrance/assets/bundle/img/HM-Share-Image.jpg" />
+        src="https://www.hm.com/entrance/assets/bundle/img/HM-Share-Image.jpg" alt="" />
       </div>
       <div className="menu-area">
           <ul className="menu-list">
