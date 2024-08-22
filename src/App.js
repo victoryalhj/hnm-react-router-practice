@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Routes, Route} from "react-router-dom";
-import ProductDetail from './page/ProductDetail';
+// import ProductDetail from './page/ProductDetail';
 import ProductAll from './page/ProductAll';
 import Login from './page/Login';
 import Navbar from "./component/Navbar";
