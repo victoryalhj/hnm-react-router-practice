@@ -23,6 +23,8 @@ const ProductAll = () => {
     }
   };
 
+
+
   useEffect(()=>{
     getProducts();
   },[])
