@@ -21,8 +21,11 @@
 }
 .container img {
   width: 300px;
-
 }
 .container img:hover {
   width: 320px;
+}
+.product-img {
+  display: flex;
+  justify-content: flex-end;
 }
